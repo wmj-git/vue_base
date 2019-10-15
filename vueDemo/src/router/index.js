@@ -1,20 +1,27 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import dataBind from '@/components/dataBind'
+import Base from '@/components/base/index'
+import Watch from '@/components/Watch/index'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/HelloWorld',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/Base',
+      name: 'Base',
+      component: Base,
+      children:[
+        {
+          path: '/',
+          name: 'HelloWorld',
+          component: () => import('@/components/base/HelloWorld')
+        }
+      ]
     },
     {
       path: '/',
-      name: 'dataBind',
-      component: dataBind
+      name: 'Watch',
+      component: Watch,
     }
   ]
 })

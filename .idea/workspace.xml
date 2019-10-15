@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9d44dbc-ade2-4727-b45e-49de00f1c351" name="Default Changelist" comment="" />
+    <list default="true" id="c9d44dbc-ade2-4727-b45e-49de00f1c351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vueDemo/src/components/Watch/dataWatch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/src/components/Watch/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/src/components/base/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/src/components/base/useFilter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/src/filters/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/base/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/dataBind.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/base/dataBind.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/router/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -11,37 +24,71 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="vueDemo" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vueDemo/src/components/dataBind.vue">
+        <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Watch/dataWatch.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="273">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding>
+                <element signature="e#269#325#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Watch/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/vueDemo/src/components/dataBind.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/.eslintignore" />
+        <option value="$PROJECT_DIR$/vueDemo/.babelrc" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/filter.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/base/filter.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/base/index.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/main.js" />
+        <option value="$PROJECT_DIR$/vueDemo/src/filters/filters.js" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/base/my_filter.js" />
+        <option value="$PROJECT_DIR$/vueDemo/src/filters/index.js" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/base/useFilter.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/dataWatch/dataWatch.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/dataWatch/index.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/Watch/index.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/router/index.js" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/Watch/dataWatch.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="1160" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-19" />
+    <option name="width" value="1809" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -67,18 +114,54 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Watch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-element-admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\vueDemo\vueDemo\src\components\base" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,6 +175,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vueDemo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -102,12 +202,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571101389521</updated>
-      <workItem from="1571101393060" duration="482000" />
+      <workItem from="1571101393060" duration="835000" />
+      <workItem from="1571102732419" duration="9192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="482000" />
+    <option name="totallyTimeSpent" value="10027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -119,37 +220,145 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-19" y="0" width="1809" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" sideWeight="0.50083196" side_tool="true" visible="true" weight="0.24959743" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.24959743" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9079546" visible="true" weight="0.26785713" />
+      <window_info id="Structure" order="1" sideWeight="0.13793103" side_tool="true" weight="0.26785713" />
+      <window_info id="npm" order="2" sideWeight="0.092045456" side_tool="true" visible="true" weight="0.26785713" />
+      <window_info id="Favorites" order="3" sideWeight="0.54865426" side_tool="true" weight="0.24959743" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46376812" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18522727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.5217391" />
-      <window_info anchor="right" id="Nativescript Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.52120537" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5848214" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Nativescript Palette" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86206895" visible="true" weight="0.26785713" />
+      <window_info id="Structure" order="1" sideWeight="0.13793103" side_tool="true" visible="true" weight="0.26785713" />
+      <window_info id="npm" order="2" sideWeight="0.54865426" side_tool="true" weight="0.24959743" />
+      <window_info id="Favorites" order="3" sideWeight="0.54865426" side_tool="true" weight="0.24959743" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17613636" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.52120537" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5848214" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Nativescript Palette" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/dataBind.vue">
+    <entry file="file://$PROJECT_DIR$/vueDemo/.eslintignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="195">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/my_filter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#219#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/dataBind.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/useFilter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/filters/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Watch/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Watch/dataWatch.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="e#269#325#0" />
+          </folding>
         </state>
       </provider>
     </entry>

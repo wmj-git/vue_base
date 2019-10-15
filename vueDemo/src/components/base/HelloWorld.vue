@@ -21,16 +21,16 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      //所有的变量都需要在data中声明，data()，return是函数形式，用的较多
+      /*所有的变量都需要在data中声明，data()，return是函数形式，用的较多*/
       myText: '这里是myText，只能显示文本',
       myHtml: '<i>这个是v-html,能解析html标签</i>',
-      checkShow:false,//false时不显示即隐藏
-      num:5,//num默认值为1,改变num的值可看出v-if、v-else-if、v-else三者之间的区别
+      checkShow:false,/*false时不显示即隐藏*/
+      num:5,/*num默认值为1,改变num的值可看出v-if、v-else-if、v-else三者之间的区别*/
       arrayList:['张达','李思','万给','青岛','商场'],
       obj:{name:'张三',play:'篮球',address:'重庆'}
 
-      //数组：item , index (item:要显示的项，index对应项的下标)
-      //对象：value, key ,index (value:值；key:键；index:下标)
+        /*数组：item , index (item:要显示的项，index对应项的下标)
+      对象：value, key ,index (value:值；key:键；index:下标)*/
     }
   }
 }
