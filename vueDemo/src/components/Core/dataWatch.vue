@@ -3,7 +3,7 @@
     凡是函数内部有this.相关的属性改变都会触发当前函数
     <br><br>
     <input type="text" placeholder="输入love会弹出" v-model="msg.value"><br><br>
-    <div>计算属性
+    <div>计算属性：
     <br><br>
       (<input type="text" v-model="num1"> +
       <input type="text" v-model="num2">) *

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Base from '@/components/base/index'
-import Watch from '@/components/Watch/index'
+import Core from '@/components/Core/index'
 Vue.use(Router)
 
 export default new Router({
@@ -20,8 +20,8 @@ export default new Router({
     },
     {
       path: '/',
-      name: 'Watch',
-      component: Watch,
+      name: 'Core',
+      component: Core,
     }
   ]
 })
