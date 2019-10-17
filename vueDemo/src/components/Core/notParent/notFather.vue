@@ -1,6 +1,6 @@
 <template>
   <div>
-  <div> 非父子组件之间的通信<br><br>
+  <div>
     1)创建一个空实例（bus中央时间总线或中间组件）<br><br>
     如：Vue.prototype.$bus=new Vue();在Vue上面挂在一个中间组件<br><br>
     2）利用$emit $on的触发和监听事件实现非父子组件的通信<br><br>
