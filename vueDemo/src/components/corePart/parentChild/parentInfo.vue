@@ -21,7 +21,7 @@
   </div>
 </template>
 <script>
-  import ChildInfo from "@/components/Core/parentChild/childInfo";
+  import ChildInfo from "@/components/corePart/parentChild/childInfo";
 
   export default {
     name: 'parentCompon',

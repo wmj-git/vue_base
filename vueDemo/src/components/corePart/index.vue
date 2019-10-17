@@ -20,14 +20,14 @@
 </template>
 
 <script>
-import dataWatch from '@/components/Core/dataWatch'
+import dataWatch from '@/components/corePart/dataWatch'
 import UseSlot from "./useSlot";
-import ParentCompon from "@/components/Core/parentChild/parentInfo";
-import notFather from "@/components/Core/notParent/notFather";
+import ParentCompon from "@/components/corePart/parentChild/parentInfo";
+import notFather from "@/components/corePart/notParent/notFather";
 import FirstBorther from "./notParent/firstBorther";
 import LifeCycle from "./lifeCycle/index";
   export default {
-    name:'Watch',
+    name:'CorePart',
     data(){
       return{}
     },

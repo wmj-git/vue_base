@@ -1,27 +1,33 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Base from '@/components/base/index'
-import Core from '@/components/Core/index'
+import BasePinter from '@/components/basePinter/index'
+import CorePart from '@/components/corePart/index'
+import myRouter from '@/components/myRouter/index'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/Base',
-      name: 'Base',
-      component: Base,
+      path: '/BasePinter',
+      name: 'BasePinter',
+      component: BasePinter,
       children:[
         {
           path: '/',
           name: 'HelloWorld',
-          component: () => import('@/components/base/HelloWorld')
+          component: () => import('@/components/basePinter/HelloWorld')
         }
       ]
     },
     {
-      path: '/',
-      name: 'Core',
-      component: Core,
+      path: '/CorePart',
+      name: 'CorePart',
+      component: CorePart,
+    },
+    {
+      path:'/',
+      name:'myRouter',
+      component:myRouter
     }
   ]
 })

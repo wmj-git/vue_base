@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d44dbc-ade2-4727-b45e-49de00f1c351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/keepComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/src/components/myRouter/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/Core/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/notParent/notFather.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/Core/notParent/notFather.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/useSlot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/Core/useSlot.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/childComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/childComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/dataWatch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/dataWatch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/lifeCycle/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/keepComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/lifeCycle/keepComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/notParent/firstBorther.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/notParent/firstBorther.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/notParent/notFather.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/notParent/notFather.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/parentChild/childInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/parentChild/childInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/parentChild/parentInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/parentChild/parentInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/Core/useSlot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/corePart/useSlot.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/base/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/basePinter/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/base/dataBind.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/basePinter/dataBind.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/base/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/basePinter/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/components/base/useFilter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/basePinter/useFilter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/test/unit/jest.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/test/unit/jest.conf.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,12 +37,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/index.vue">
+        <entry file="file://$PROJECT_DIR$/vueDemo/src/components/myRouter/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="398">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueDemo/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="22" />
               <folding>
-                <element signature="e#327#378#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,7 +81,6 @@
         <option value="$PROJECT_DIR$/vueDemo/src/components/dataWatch/index.vue" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Watch/index.vue" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Watch/dataWatch.vue" />
-        <option value="$PROJECT_DIR$/vueDemo/src/router/index.js" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/solt.vue" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/dataWatch.vue" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/childComponent.vue" />
@@ -73,17 +94,22 @@
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/index.js" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/keepAlive.vue" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/keepComponent.vue" />
-        <option value="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/index.vue" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/notParent/notFather.vue" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/useSlot.vue" />
         <option value="$PROJECT_DIR$/vueDemo/src/components/Core/index.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/router/index.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/myRouter/index.js" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/index.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/corePart/index.vue" />
+        <option value="$PROJECT_DIR$/vueDemo/src/router/index.js" />
+        <option value="$PROJECT_DIR$/vueDemo/src/components/myRouter/index.vue" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="97" />
-    <option name="y" value="46" />
-    <option name="width" value="1637" />
+    <option name="x" value="-215" />
+    <option name="y" value="59" />
+    <option name="width" value="1940" />
     <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -124,7 +150,7 @@
               <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="basePinter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -132,8 +158,7 @@
               <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
-              <item name="lifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="corePart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -141,22 +166,7 @@
               <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
-              <item name="notParent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="vueDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="myRouter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vueDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -229,12 +239,12 @@
       <updated>1571101389521</updated>
       <workItem from="1571101393060" duration="835000" />
       <workItem from="1571102732419" duration="25182000" />
-      <workItem from="1571273526647" duration="11882000" />
+      <workItem from="1571273526647" duration="16266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37899000" />
+    <option name="totallyTimeSpent" value="42283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,12 +259,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9079546" visible="true" weight="0.15673645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9079546" visible="true" weight="0.21095008" />
       <window_info id="Structure" order="1" sideWeight="0.13793103" side_tool="true" weight="0.26785713" />
       <window_info id="npm" order="2" sideWeight="0.092045456" side_tool="true" weight="0.26785713" />
       <window_info id="Favorites" order="3" sideWeight="0.54865426" side_tool="true" weight="0.24959743" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919486" weight="0.32924107" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6328125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -262,8 +272,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.52120537" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.453125" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080514" side_tool="true" visible="true" weight="0.07366072" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.62946427" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -311,32 +321,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/my_filter.js" />
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vueDemo/node_modules/vue/types/vue.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -358,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/useFilter.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="979">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vueDemo/src/request/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -375,102 +352,138 @@
     <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/parentChild/parentInfo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/parentChild/childInfo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/HelloWorld.vue">
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/basePinter/HelloWorld.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/dataBind.vue">
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
+        <state relative-caret-position="78">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/basePinter/useFilter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/basePinter/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/basePinter/dataBind.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/keepComponent.vue">
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/lifeCycle/keepComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/notParent/notFather.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/childComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/dataWatch.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/lifeCycle/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="e#1021#1111#0" />
-            <element signature="e#1131#1234#0" />
-            <element signature="e#1250#1314#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/useSlot.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/notParent/firstBorther.vue">
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/notParent/firstBorther.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/base/index.vue">
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/notParent/notFather.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="78">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/Core/index.vue">
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/parentChild/parentInfo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="923">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/parentChild/childInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/childComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/dataWatch.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/useSlot.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
-            <element signature="e#327#378#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#453#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/corePart/lifeCycle/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueDemo/src/components/myRouter/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>

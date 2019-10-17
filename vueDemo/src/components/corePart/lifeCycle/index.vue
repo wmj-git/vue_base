@@ -25,6 +25,7 @@
       <keep-component v-if="componentShow"></keep-component>
     </keep-alive>
     <button @click="DestroyMe">{{ btnContent }}</button>
+
   </div>
 </template>
 <script>
