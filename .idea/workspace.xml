@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d44dbc-ade2-4727-b45e-49de00f1c351" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vueDemo/src/components/shopCart/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/components/shopCart/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueDemo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/src/router/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vueDemo/src/components/shopCart/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="363">
+              <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#el-table#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -289,12 +289,12 @@
       <workItem from="1571273526647" duration="16365000" />
       <workItem from="1571360484008" duration="30000" />
       <workItem from="1571705910219" duration="22282000" />
-      <workItem from="1571792467091" duration="8487000" />
+      <workItem from="1571792467091" duration="11654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73181000" />
+    <option name="totallyTimeSpent" value="76348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,7 +309,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9079546" visible="true" weight="0.18786903" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9079546" visible="true" weight="0.18786903" />
       <window_info id="Structure" order="1" sideWeight="0.13793103" side_tool="true" weight="0.26785713" />
       <window_info id="npm" order="2" sideWeight="0.092045456" side_tool="true" weight="0.26785713" />
       <window_info id="Favorites" order="3" sideWeight="0.54865426" side_tool="true" weight="0.24959743" />
@@ -323,7 +323,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002684" side_tool="true" weight="0.62946427" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49973163" weight="0.7979911" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49973163" weight="0.83816963" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -621,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vueDemo/src/components/shopCart/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="363">
+          <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#el-table#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>

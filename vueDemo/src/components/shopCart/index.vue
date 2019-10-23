@@ -9,13 +9,18 @@
         <el-form-item label="价格：">
           <el-input v-model="inpPrice" placeholder="请输入价格" clearable/>
         </el-form-item>
-        <el-button type="primary" class="addBtn" @click="addHandle">添加</el-button>
+        <el-button type="primary" class="addBtn" @click="addHandle" size="small">添加</el-button>
       </el-form>
     </div>
     <div class="shopCartContainer">
       <el-table
         :data="tableData"
+        border
         style="width: 100%">
+        <el-table-column
+          type="index"
+          width="50">
+        </el-table-column>
         <el-table-column
           prop="name"
           label="商品名称"
@@ -28,6 +33,11 @@
           width="100">
         </el-table-column>
         <el-table-column
+          prop="num"
+          label="数量"
+          width="100">
+        </el-table-column>
+        <el-table-column
           prop="total"
           label="总价"
           width="120">
@@ -36,6 +46,10 @@
           prop="operate"
           label="操作"
           width="120">
+          <template slot-scope="scope">
+            <el-button @click="handleIncrease(scope.row)" type="text">+</el-button>
+            <el-button @click="handleReduce(scope.row)" type="text">-</el-button>
+          </template>
         </el-table-column>
       </el-table>
     </div>
@@ -55,14 +69,23 @@
           type: []
         },
         tableData: [
-          {name: '123', price: '￥50', total: '150'}
+          {name: '123', price: '￥50', num: 1, total: '150'}
         ]
       }
     },
     methods: {
       addHandle() {
         console.log(this.inpName)
-        console.log(this.tableData.name)
+
+        for (var i = 0; i < this.tableData.length; i++) {
+          console.log(this.tableData[0].price)
+        }
+
+      },
+      handleIncrease() {
+
+      },
+      handleReduce() {
       }
     }
   }
@@ -71,10 +94,22 @@
   .shopCart {
   }
 
+  .shopCartTop {
+    margin: 20px auto;
+  }
+
+  .shopCartContainer {
+    margin: 100px auto;
+  }
+
   .shopCartTop, .shopCartContainer {
     width: 50%;
-    margin: 20px auto;
     text-align: center;
+  }
+
+  .el-button--text {
+    font-size: 18px;
+    padding: 10px;
   }
 
   .addBtn {
