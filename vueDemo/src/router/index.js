@@ -32,7 +32,7 @@ export default new Router({
       component: RouteParam
     },
     {
-      path: '/',
+      path: '/NestedRoute',
       name: 'NestedRoute',
       component: NestedRoute,
       children: [
@@ -54,7 +54,7 @@ export default new Router({
       ]
     },
     {
-      path: '/ShopCart',
+      path: '/',
       name: 'ShopCart',
       component: ShopCart
     },
