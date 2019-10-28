@@ -4,13 +4,22 @@
     <div class="shopCartTop">
       <el-form ref="form" :model="form" label-width="80px">
         <el-form-item label="名称：">
-          <el-input v-model="inpName" placeholder="请输入商品名称" clearable/>
+          <el-input v-model="course" placeholder="请输入商品名称" clearable/>
         </el-form-item>
         <el-form-item label="价格：">
-          <el-input v-model="inpPrice" placeholder="请输入价格" clearable/>
+          <el-input v-model="price" placeholder="请输入价格" clearable/>
         </el-form-item>
         <el-button type="primary" class="addBtn" @click="addHandle" size="small">添加</el-button>
       </el-form>
+    </div>
+    <div class="list">
+      <ul>
+        <li v-for="(list,index) in listData">
+          课程：{{ list.course }}---------价格：￥{{ list.price }}
+          <el-button @click="addtoShop(index)" type="success" size="small">添加到购物车</el-button>
+        </li>
+      </ul>
+
     </div>
     <div class="shopCartContainer">
       <el-table
@@ -21,26 +30,14 @@
           type="index"
           width="50">
         </el-table-column>
+        <!-- 设置表头数据源，并循环渲染出来，property对应列内容的字段名，详情见下面的数据源格式 -->
         <el-table-column
-          prop="name"
-          label="商品名称"
-          width="150"
-          v-model="receName">
-        </el-table-column>
-        <el-table-column
-          prop="price"
-          label="价格"
-          width="100">
-        </el-table-column>
-        <el-table-column
-          prop="num"
-          label="数量"
-          width="100">
-        </el-table-column>
-        <el-table-column
-          prop="total"
-          label="总价"
-          width="120">
+          v-for="(info,index) in tableHeader" :key="info.key"
+          :label="info.label"
+        >
+          <template slot-scope="scope">
+              <span>{{ scope.row[info.key] }}</span>
+          </template>
         </el-table-column>
         <el-table-column
           prop="operate"
@@ -60,32 +57,70 @@
     name: 'ShopCart',
     data() {
       return {
-        inpName: '',
-        inpPrice: '',
+        course: '',
+        price: '',
         receName: '',
         form: {
           name: '',
           region: '',
           type: []
         },
-        tableData: [
-          {name: '123', price: '￥50', num: 1, total: '150'}
+        tableData: [],
+        tableHeader: [
+          {
+            label: '商品名称',
+            key: 'course'
+          },
+          {
+            label: '商品数量',
+            key: 'count'
+          },
+          {
+            label: '商品价格',
+            key: 'totalPrice'
+          }
+        ],
+        listData: [
+          {course: 'java', price: '50'},
+          {course: 'php', price: '50'},
+          {course: 'c++', price: '50'},
         ]
+      }
+    },
+    created() {
+      this.addtoShop();
+    },
+    updated() {
+      console.log(this.listData.length)
+      for (var i = 0; i <= this.listData.length; i++) {
       }
     },
     methods: {
       addHandle() {
-        console.log(this.inpName)
-
-        for (var i = 0; i < this.tableData.length; i++) {
-          console.log(this.tableData[0].price)
-        }
-
+        this.listData.push({course: this.course, price: this.price});//添加到商品库
+        console.log(this.course + ';' + this.price);
+        this.course = '',
+          this.price = ''
       },
       handleIncrease() {
 
       },
       handleReduce() {
+      },
+      addtoShop(index) {
+        const goods = this.listData[index];
+        console.log(goods);
+        const result = this.tableData.find(v => v.course == goods.course)
+        if (result) {
+          result.count += 1;
+        } else {
+          this.tableData.push({
+            course: this.tableData.course,
+            count: 1,
+            totalPrice: (Number(this.tableData.count) * Number(this.tableData.price))
+          })
+        }
+
       }
     }
   }
@@ -94,12 +129,20 @@
   .shopCart {
   }
 
-  .shopCartTop {
+  .list {
+    width: 50%;
+  }
+
+  .shopCartTop, .list {
     margin: 20px auto;
   }
 
   .shopCartContainer {
     margin: 100px auto;
+  }
+
+  li {
+    line-height: 60px;
   }
 
   .shopCartTop, .shopCartContainer {
